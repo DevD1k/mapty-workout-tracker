@@ -295,7 +295,7 @@ class App {
     if (!this.#map) return;
 
     const workoutEl = e.target.closest('.workout');
-    console.log(workoutEl);
+    // console.log(workoutEl);
 
     if (!workoutEl) return;
 
